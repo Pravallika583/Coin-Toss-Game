@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-container {
+  background: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+.coin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+}
+.coin-image {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+.heading {
+  color: #a35200;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.button {
+  background-color: #e2a139;
+  padding: 6px;
+  color: #a35200;
+  border-radius: 6px;
+  border-width: 0px;
+  margin-bottom: 15px;
+}
+.count-container {
+  display: flex;
+  color: #475569;
+}
+.text {
+  color: #334155;
+  margin-bottom: 15px;
+}
+.total{
+  margin-right:20px;
+}
+.heads{
+  margin-right: 20px;
+}
